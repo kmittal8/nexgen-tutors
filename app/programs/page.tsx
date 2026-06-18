@@ -3,9 +3,9 @@ import Link from "next/link";
 const programs = [
   {
     icon: "➕",
-    name: "Cuemath",
+    name: "Mathematics",
     levels: "Year 1 – Year 8 (NZ)",
-    desc: "Strong conceptual foundation in Mathematics and logical thinking. Internationally recognized curriculum with a personalized learning approach. Ideal for NZ students needing extra Maths support aligned to NCEA.",
+    desc: "Strong conceptual foundation in Maths and logical thinking. Personalized learning approach ideal for NZ students needing extra support, aligned to NCEA, Cambridge, and IB.",
     highlights: ["Concept-based not rote learning", "NCEA, Cambridge, IB, CBSE & ICSE aligned", "Regular assessments & parent updates"],
   },
   {

@@ -2,7 +2,7 @@ import Link from "next/link";
 import ParticlesBg from "@/components/ParticlesBg";
 
 const programs = [
-  { icon: "➕", name: "Cuemath", desc: "KG–Grade 8 · Concept-based Math · Online & Offline" },
+  { icon: "➕", name: "Mathematics", desc: "Year 1–Year 8 · Concept-based Maths · NCEA / Cambridge / IB aligned" },
   { icon: "♟️", name: "Chess", desc: "Focus, strategy & discipline · Time2Chess program" },
   { icon: "🗣️", name: "English Excellence", desc: "Public speaking · Fluency · Confidence building" },
   { icon: "🧠", name: "Mid Brain Neural", desc: "Memory · Focus · Brain activation training" },
