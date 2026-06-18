@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-const waNumber = "64210660717";
+const waNumber = "640000000000"; // TODO: replace with your WhatsApp Business number (no + or spaces)
 const waMessage = encodeURIComponent(
-  "Hi NexGen Tutors! I'm interested in booking a free trial session for my child. Could you please share more details?"
+  "Hi! I'm interested in booking a free trial session for my child. Could you please share more details?"
 );
 const waLink = `https://wa.me/${waNumber}?text=${waMessage}`;
 
@@ -29,8 +29,8 @@ export default function Contact() {
 
       <p className="mt-5 text-gray-400 text-sm">
         Or tap to call/text:{" "}
-        <a href="tel:+64210660717" className="text-blue-600 font-semibold hover:underline">
-          +64 21 066 0717
+        <a href="tel:+640000000000" className="text-blue-600 font-semibold hover:underline">
+          +64 00 000 0000
         </a>
       </p>
 
