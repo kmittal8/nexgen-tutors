@@ -2,8 +2,6 @@
 
 A production-ready website template for online tutoring businesses. Built with Next.js, Tailwind CSS, and Docker. Designed to convert parents into trial bookings via WhatsApp — no backend, no database, no complexity.
 
-**Live demo:** http://152.70.67.55
-
 ---
 
 ## Features
