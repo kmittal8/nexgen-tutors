@@ -27,14 +27,14 @@ grep -rn "NexGen Tutors" app/ components/
 ### 2. WhatsApp number
 In `app/contact/page.tsx`:
 ```ts
-const waNumber = "64210660717"; // replace with your WhatsApp Business number (no + or spaces)
+const waNumber = "640000000000"; // replace with your WhatsApp Business number (no + or spaces)
 const waMessage = encodeURIComponent("Hi! I'm interested in a free trial...");
 ```
 
 ### 3. Phone number (homepage)
 In `app/page.tsx`, update:
 ```tsx
-<a href="tel:+64210660717">+64 21 066 0717</a>
+<a href="tel:+640000000000">+64 00 000 0000</a>
 ```
 
 ### 4. Programs
