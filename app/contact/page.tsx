@@ -34,7 +34,24 @@ export default function Contact() {
         </a>
       </p>
 
-      <div className="mt-14 grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-left">
+      {/* Tutor recruitment */}
+      <div className="mt-14 bg-blue-50 border border-blue-100 rounded-2xl p-8 text-left">
+        <p className="text-xs font-bold uppercase tracking-widest text-blue-400 mb-2">For Tutors</p>
+        <h2 className="text-xl font-bold text-gray-900 mb-2">Interested in working with us?</h2>
+        <p className="text-gray-500 text-sm mb-5">
+          We're always looking for passionate, qualified tutors to join our team. Teach online from anywhere — flexible hours, great students.
+        </p>
+        <a
+          href={`https://wa.me/${waNumber}?text=${encodeURIComponent("Hi! I'm a tutor interested in joining NexGen Tutors. Could you share more details about working with your team?")}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm"
+        >
+          💬 Let's Chat
+        </a>
+      </div>
+
+      <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-left">
         <div className="bg-gray-50 rounded-xl p-5">
           <p className="text-2xl mb-2">🆓</p>
           <p className="font-semibold text-gray-800 mb-1">First Session Free</p>
