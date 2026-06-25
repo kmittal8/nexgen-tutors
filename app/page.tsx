@@ -37,10 +37,10 @@ export default function Home() {
           </p>
           <p className="text-sm mb-8">
             <a
-              href="tel:+640000000000"
+              href="tel:+64210660717"
               className="inline-flex items-center gap-2 animate-pulse text-green-300 hover:text-green-100 font-semibold transition-colors"
             >
-              📞 NZ: +64 00 000 0000
+              📞 NZ: +64 21 066 0717
             </a>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

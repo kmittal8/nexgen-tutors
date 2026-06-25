@@ -6,9 +6,9 @@ import Nav from "@/components/Nav";
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist-sans" });
 
 export const metadata: Metadata = {
-  title: "NexGen Tutors | Online Tutoring New Zealand",
+  title: "NexGen Tutor | Online Tutoring New Zealand",
   description:
-    "NexGen Tutors — expert online tutoring for Maths (NCEA), English, Chess and more. Personalized one-on-one sessions with experienced educators. First trial free.",
+    "NexGen Tutor — expert online tutoring for Maths (NCEA), English, Chess and more. Personalized one-on-one sessions with experienced educators. First trial free.",
 };
 
 export default function RootLayout({
@@ -20,9 +20,9 @@ export default function RootLayout({
         <Nav />
         <main className="flex-1">{children}</main>
         <footer className="bg-gray-900 text-gray-400 text-center py-8 text-sm">
-          <p className="font-semibold text-white mb-1">NexGen Tutors</p>
+          <p className="font-semibold text-white mb-1">NexGen Tutor</p>
           <p>Online tutoring for NZ students · Expert teachers available globally</p>
-          <p className="mt-1">© {new Date().getFullYear()} NexGen Tutors. All rights reserved.</p>
+          <p className="mt-1">© {new Date().getFullYear()} NexGen Tutor Limited. All rights reserved.</p>
         </footer>
       </body>
     </html>

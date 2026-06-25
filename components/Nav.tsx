@@ -17,7 +17,7 @@ export default function Nav() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         <Link href="/" className="flex items-center gap-2">
           <span className="text-blue-700 font-bold text-xl tracking-tight">NexGen</span>
-          <span className="hidden sm:inline text-gray-700 font-medium text-sm">Tutors</span>
+          <span className="hidden sm:inline text-gray-700 font-medium text-sm">Tutor</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
